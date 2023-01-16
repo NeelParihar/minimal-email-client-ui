@@ -1,0 +1,39 @@
+.header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0.5rem 0rem;
+    color: black;
+}
+
+.filter-text {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.header-menu {
+    display: flex;
+    padding: 0;
+    margin: 0 1rem;
+}
+
+.navButton {
+    font-size: 1rem;
+    background: none;
+    color: currentColor;
+    border: none;
+    cursor: pointer;
+
+    padding: 0.4rem;
+    padding-inline: 0.8rem;
+    margin: 0.2rem;
+}
+
+.active {
+    background-color: #E1E4EA;
+    border-radius: 1rem;
+    color: #636363;
+    border: 0.1px solid #CFD2DC;
+}
