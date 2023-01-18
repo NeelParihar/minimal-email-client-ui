@@ -7,10 +7,10 @@ export default function Navbar() {
         <span href="/" className="filter-text">
           Filter by:
         </span>
-        <div
+        <span
           className="header-menu">
           <ButtonGroup buttons={["Unread", "Read", "Favorites"]} />
-        </div>
+        </span>
       </header>
       )
 }
