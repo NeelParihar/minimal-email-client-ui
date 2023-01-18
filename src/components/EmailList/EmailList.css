@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    width: 100%;
+}
+
+/* Email List Card */
+.card {
+    background: #fff;
+    border-radius: 0.4rem;
+    border: 1px solid #CFD2DC;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 1.2rem;
+    color: #636363;
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 1px solid #E54065;
+}
+.selected {
+    border: 1px solid #E54065;
+}
+
+.avatar{
+    background: #E54065;
+    border-radius: 10rem;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardIsRead{
+    background: #F2F2F2;
+}
+.favText {
+    color: #E54065;
+    font-weight: 700;
+    margin-left: 1.4rem;
+}
+
+/* Email Details Card */
+.emailDetailsCard {
+    background: #fff;
+    border-radius: 0.4rem;
+    border: 1px solid #CFD2DC;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 1.5rem;
+    color: #636363;
+}
+
+.emailDetailsCardBody {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    margin-right: 1.4rem;
+    gap: 1rem;
+}
+
+.emailDetailsCardHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.favBtn{
+    background: #E54065;
+    border-radius: 4rem;
+    color: #fff;
+    border: none;
+    padding-inline: 0.7rem;
+    font-size: .6rem;
+    cursor: pointer;
+}
+
+.btn{
+    background: #E54065;
+    border-radius: 4rem;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    padding-inline: 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
